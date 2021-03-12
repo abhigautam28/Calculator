@@ -1,0 +1,125 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.body{
+  position: absolute;
+  background: url('./cal.jpg') no-repeat center center/cover;
+  background-size: fixed;
+  width: 100%;
+  height: 55%;
+  font-family: 'Concert One', cursive;
+}
+.box{
+  /* border: 2px solid coral; */
+  background-color: rgb(231, 243, 243);
+  width: 320px;
+  height: 514px;
+  margin: 45px auto;
+  box-shadow: 0px 0px 5px 5px #888888;
+  
+  
+  
+}
+
+#history
+{
+  font-size: 18px;
+  text-align: right;
+  padding-top: 66px;
+}
+#output
+{       font-size: 23px;
+   padding-top: 3px;
+   padding-bottom: 2px;
+    text-align: right;
+}
+#keyboard{
+  width: 320px;
+  position: relative;
+  top: 15px;
+  height:414px;
+}
+
+.btn {
+  
+    width: 67px;
+    height: 67px;
+    margin: 4px;
+    padding: 2px;
+    border-radius: 50%;
+    font-family: 'Concert One', cursive;
+    font-size: 18px;
+   cursor: pointer;
+   border-style: none;
+}
+.btn:active {
+  
+  font-size: 13px;
+  
+}
+.btn:focus {
+  
+  outline: 0;
+  
+}
+.operation {
+  
+    width: 67px;
+    height: 67px;
+    margin: 4px;
+    padding: 2px;
+    border-radius: 50%;
+    font-family: 'Concert One', cursive;
+    font-size: 18px;
+   cursor: pointer;
+   border-style: none;
+}
+.operation:active {
+  
+  font-size: 13px;
+}
+.operation:focus{
+  
+  outline: 0;
+}
+.operation:hover{
+  
+  background-color: #888888;
+  border: none;
+  
+}
+.btn:hover {
+   
+  background-color: #888888;
+  border: none;
+}
+#result
+{
+    margin: 2px 0px;
+}
+.operation:nth-child(4){
+  color: black;
+  background-color: brown;
+  
+}
+.operation:nth-child(8){
+  color: black;
+  background-color: rgb(104, 69, 87);
+}
+.operation:nth-child(12){
+  color: black;
+  background-color: grey;
+}
+.operation:nth-child(16){
+  color: black;
+  background-color: blue;
+}
+.operation:nth-child(20)
+{
+  background-color: blueviolet;
+}
+/* #equal{
+  height: 12px;
+} */
